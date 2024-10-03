@@ -1,0 +1,4 @@
+.bg-noname {
+    background: rgb(253,126,20) !important;
+    background: linear-gradient(47deg, rgba(253,126,20,1) 0%, rgba(253,153,20,1) 100%) !important; 
+}

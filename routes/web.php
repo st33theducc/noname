@@ -103,6 +103,7 @@ Route::middleware(['auth', BanMiddleware::class])->group(function () {
     Route::get('/app/avatar', [AvatarController::class, 'show'])->name('app.avatar');
 
     // APIs
+    Route::get('/app/get-places', [GamesController::class, 'getGames'])->name('app.get-places')->middleware('throttle:45,1');
     Route::get('/app/buy-slot', [CatalogController::class, 'buyPlaceSlot'])->name('app.buy.slot')->middleware('throttle:15,1');
     Route::get('/app/buy-item/{id}', [CatalogController::class, 'buy'])->name('app.buy.item')->middleware('throttle:15,1');
     Route::get('/app/change-body-color/{color}/{part}', [AvatarController::class, 'changeBodyColor'])->name('app.change-body-color')->middleware('throttle:15,1');

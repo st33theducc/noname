@@ -15,6 +15,10 @@ class GamesController extends Controller
     */
 
     public function index() {
+        return view('places');
+    }
+
+    public function getGames() {
         $games = Asset::where('type', 'place')
         ->where('banned', 0)
         ->where('under_review', 0)
@@ -23,8 +27,7 @@ class GamesController extends Controller
         ->orderBy('visits', 'DESC')
         ->paginate(25);
 
-        // view time
-        return view('places', compact('games'));
+        return response()->json($games);
     }
 
     public function show($id) {

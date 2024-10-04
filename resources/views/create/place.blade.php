@@ -31,7 +31,7 @@
                 <img src="/images/sweat.png" alt="Sweating blob" width="100" class="mb-3">
 
                 <h3 class="font-weight-light">You don't have any more place slots.</h3>
-                <h6 class="font-weight-regular text-muted mb-4">You can buy more in Settings. To buy a place slots, it costs 300 <x-peep-icon :size="16" :spacing="true" />.</h6>
+                <h6 class="font-weight-regular text-muted mb-4">You can buy more in Settings. To buy place slots, go to settings. It costs 250 <x-peep-icon :size="16" :spacing="true" />.</h6>
 
                 <button class="btn btn-success" onclick="history.back()">🢐 &nbsp; go back</button> <button class="btn btn-success" onclick="document.location = '/app/settings'">🢐 &nbsp; settings</button>
             </div>

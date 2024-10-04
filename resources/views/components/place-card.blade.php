@@ -7,9 +7,9 @@
         </div>
         <div class="position-absolute top-0 start-0 w-100 h-100"></div>
         @if ($under_review == 1)
-        <img src="/images/place_pending.png" alt="Game Thumbnail" class="card-img place-thumbnail border-bottom lazy-load" height="130">
+        <img src="/images/place_pending.png" alt="Game Thumbnail" class="card-img place-thumbnail border-bottom lazy-load" height="150">
         @else
-        <img src="/images/placeload.png" data-src="/cdn/{{ $id }}?t={{ time() }}" alt="Game Thumbnail" class="card-img place-thumbnail border-bottom lazy-load" height="130">
+        <img src="/images/placeload.png" data-src="/cdn/{{ $id }}?t={{ time() }}" alt="Game Thumbnail" class="card-img place-thumbnail border-bottom lazy-load" height="150">
         @endif
     </div>
 

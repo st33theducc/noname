@@ -1,6 +1,7 @@
 
-<p align="center"><img src="https://github.com/st33theducc/noname/blob/main/public/images/logo.png" width="90">
-    # NONAME v1</p>
+<img src="https://github.com/st33theducc/noname/blob/main/public/images/logo.png" width="90">
+
+# NONAME V1
 ### we suck ass and this is my biggest project btw
 
 good luck even trying to run this

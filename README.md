@@ -1,5 +1,5 @@
 
-<p align="center"><img src="<img src="https://github.com/st33theducc/noname/blob/main/public/images/logo.png">"></p>
+<p align="center"><img src="<img src="https://github.com/st33theducc/noname/blob/main/public/images/logo.png"></p>
 
 # NONAME v1
 ### we suck ass and this is my biggest project btw

@@ -1,10 +1,8 @@
 
-<center>
-    
-    <img src="https://github.com/st33theducc/noname/blob/main/public/images/logo.png" width="100">
-    # NONAME v1
-    ### we suck ass and im proud of it
-</center>
+<p align="center"><img src="<img src="https://github.com/st33theducc/noname/blob/main/public/images/logo.png">"></p>
+
+# NONAME v1
+### we suck ass and this is my biggest project btw
 
 good luck even trying to run this
 
